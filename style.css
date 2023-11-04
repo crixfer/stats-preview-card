@@ -1,0 +1,37 @@
+/* COLOR PALLETTE */
+:root {
+  /* ## Colors
+
+### Primary */
+  /* (main background) */
+  --Very-dark-blue: hsl(233, 47%, 7%);
+  /* (card background) */
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  /* (accent) */
+  --Soft-violet: hsl(277, 64%, 61%);
+
+  /* ### Neutral */
+  /* (main heading, stats) */
+  --White: hsl(0, 0%, 100%);
+  /* (main paragraph) */
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  /* (stat headings) */
+  --Slightlytransparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
+/*****TAG SELECTOR*****/
+
+/*****CLASS SELECTOR*****/
+
+/* ATTRIBUTION */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*****ID SELECTOR*****/
+
+/*****MEDIA QUERY*****/
