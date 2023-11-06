@@ -40,7 +40,7 @@ p {
   color: var(--Slightly-transparent-white);
   font-size: 13px;
   font-family: "Lexend Deca", sans-serif;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
 }
 span {
   color: var(--Soft-violet);
@@ -64,22 +64,22 @@ span {
   background-color: var(--Dark-desaturated-blue);
   border-radius: 8px 0 0 8px;
   display: flex;
-  height: 376px;
+  height: 23.5rem;
   justify-content: center;
-  width: 470px;
+  width: 29.37rem;
 }
 
 /* CARD INFO */
 .information {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  width: 21.87rem;
 }
 
 .stats {
   display: flex;
   justify-content: space-between;
-  width: 315px;
+  width: 19.68rem;
 }
 
 .tenk,
@@ -88,7 +88,7 @@ span {
   color: var(--White);
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 1rem;
   padding-bottom: 4px;
 }
 
@@ -110,8 +110,8 @@ span {
     url(./images/image-header-mobile.jpg);
   background-size: cover;
   border-radius: 0 8px 8px 0;
-  width: 470px;
-  height: 376px;
+  width: 29.37rem;
+  height: 23.5rem;
 }
 
 /* ATTRIBUTION */
@@ -130,13 +130,13 @@ span {
 @media screen and (max-width: 740px) {
   /*****TAG SELECTOR *****/
   h1 {
-    font-size: 25px;
-    padding: 0 40px;
+    font-size: 1.56rem;
+    padding: 0 2.5rem;
   }
 
   p {
     line-height: 1.5;
-    padding: 0 40px;
+    padding: 0 2.5rem;
   }
 
   /*****CLASS SELECTOR*****/
@@ -147,9 +147,9 @@ span {
 
   .container {
     border-radius: 0 0 8px 8px;
-    height: 460px;
+    height: 28.75rem;
     text-align: center;
-    width: 300px;
+    width: 18.75rem;
   }
 
   .image {
@@ -161,8 +161,8 @@ span {
       url(./images/image-header-mobile.jpg);
 
     border-radius: 8px 8px 0 0;
-    height: 220px;
-    width: 300px;
+    height: 13.75rem;
+    width: 18.75rem;
   }
 
   .stats {
@@ -173,6 +173,6 @@ span {
   .tenk,
   .t314,
   .m12 {
-    padding-top: 20px;
+    padding-top: 1.25rem;
   }
 }
