@@ -68,6 +68,8 @@ span {
   justify-content: center;
   width: 470px;
 }
+
+/* CARD INFO */
 .information {
   display: flex;
   flex-direction: column;
@@ -97,6 +99,8 @@ span {
   font-size: 10px;
   font-family: "Lexend Deca", sans-serif;
 }
+
+/* IMAGE */
 .image {
   background-image: linear-gradient(
       0deg,
@@ -114,6 +118,7 @@ span {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
