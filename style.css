@@ -16,12 +16,96 @@
   /* (main paragraph) */
   --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
   /* (stat headings) */
-  --Slightlytransparent-white: hsla(0, 0%, 100%, 0.6);
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+
+  /* font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif; */
 }
 
 /*****TAG SELECTOR*****/
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  color: var(--White);
+  font-weight: 700;
+}
+
+p {
+  color: var(--Slightly-transparent-white);
+  font-size: 13px;
+  font-family: "Lexend Deca", sans-serif;
+  padding-bottom: 50px;
+}
+span {
+  color: var(--Soft-violet);
+}
+/* img {
+  background-image: url(./images/image-header-desktop.jpg);
+  width: 470px;
+  height: 376px;
+} */
 
 /*****CLASS SELECTOR*****/
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  background-color: var(--Dark-desaturated-blue);
+  width: 470px;
+  height: 376px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 0 0 8px;
+}
+.information {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  width: 315px;
+}
+
+.tenk,
+.t314,
+.m12 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--White);
+  padding-bottom: 4px;
+}
+
+.companies,
+.templates,
+.queries {
+  color: var(--Slightly-transparent-white);
+  font-size: 10px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.image {
+  width: 470px;
+  height: 376px;
+  background-image: linear-gradient(
+      0deg,
+      hsla(277, 80%, 56%, 0.373),
+      hsla(277, 80%, 56%, 0.373)
+    ),
+    url(./images/image-header-mobile.jpg);
+  background-size: cover;
+  border-radius: 0 8px 8px 0;
+}
 
 /* ATTRIBUTION */
 .attribution {
